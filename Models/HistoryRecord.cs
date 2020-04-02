@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 namespace library_client.Models
 {
-    public class HistoryRecord
+    public class HistoryRecord : BaseEntity<int>
     {
         /// <summary>
         ///     The date when the reader should return back the book.
