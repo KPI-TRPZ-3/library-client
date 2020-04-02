@@ -39,7 +39,7 @@ namespace library_client.DAL.Abstract.Repository
         void Update(TEntity entity);
         
         /// <summary>
-        ///    Removes the given entity.
+        ///     Removes the given entity.
         /// </summary>
         /// <param name="entity">The entity to remove.</param>
         void Delete(TEntity entity);
