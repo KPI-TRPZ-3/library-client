@@ -7,7 +7,7 @@ namespace library_client.Models
     /// <summary>
     ///     The base class of models.
     /// </summary>
-    /// <typeparam name="T">Type of primary key of the model.</typeparam>
+    /// <typeparam name="T">Type of a primary key of a model.</typeparam>
     public abstract class BaseEntity<T> where T : struct
     {
         [Key]
