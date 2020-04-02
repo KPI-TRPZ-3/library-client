@@ -12,7 +12,7 @@ namespace library_client.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [System.Text.Json.Serialization.JsonIgnore]
+        [JsonIgnore]
         public T Id { get; set; }
 
         [JsonProperty("id")]
