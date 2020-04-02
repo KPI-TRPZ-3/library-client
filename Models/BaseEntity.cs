@@ -20,5 +20,5 @@ namespace library_client.Models
         {
             set => Id = value;
         }
-    }}
+    }
 }
