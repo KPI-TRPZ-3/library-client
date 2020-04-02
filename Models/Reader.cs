@@ -15,6 +15,6 @@ namespace library_client.Models
         ///     The list of history records related with the reader.
         /// </summary>
         [JsonIgnore]
-        public virtual ICollection<HistoryItem> History { get; set; }
+        public virtual ICollection<HistoryRecord> History { get; set; }
     }
 }

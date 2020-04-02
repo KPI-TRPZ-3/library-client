@@ -49,7 +49,7 @@ namespace library_client.Models
         ///     The history readers taking the book.
         /// </summary>
         [JsonIgnore]
-        public virtual ICollection<HistoryItem> History { get; set; }
+        public virtual ICollection<HistoryRecord> History { get; set; }
 
         /// <summary>
         ///     The sections of the book.
